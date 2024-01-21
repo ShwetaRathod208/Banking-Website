@@ -1,3 +1,4 @@
+
 function sendMoney(){
   var enterName = document.getElementById("enterName").value;
   var enterAmount = parseInt(document.getElementById("enterAmount").value);
@@ -17,6 +18,7 @@ else {
      alert(`Successful Transaction !!  
      $${enterAmount} is sent to ${enterName}@gmail.com.`)
 
+  
      // transaction history 
      var createPTag = document.createElement("li");
      var textNode = document.createTextNode(`Rs ${enterAmount} is sent from the sender with Email-id ${enterSName}@gmail.com
